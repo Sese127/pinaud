@@ -1,17 +1,34 @@
-@import url("video.css");
+@import url("phone.css");
 @import url("tablette.css");
 
 
 *{margin: 0;
 padding: 0;
  font-family: 'Montserrat', sans-serif;
- scroll-behavior: smooth;
+}
 
+
+.logo{
+  display: flex;
+}
+.logo, img {
+  float: left;
+}
+
+.logo, p{
+  text-align: right
+}
+
+i {
+  padding: 30px;
+  text-align: center;
+  font-size: 23px;
+  margin-top: 2px;
+ 
 }
 
  .nav-item {
   color: black; 
-  text-align: center
 }
 
 
@@ -19,14 +36,20 @@ padding: 0;
     background-color:#003d66;
     color: white;
     text-align: center;
+    height: 100px;
+    padding: 5px 0px; 
   }
   
+
+  .nav a {
+    color: black
+  }
 
 footer{
   background-color: blue;
 }
 
-.containeur {
+#container {
   display: flex;
   justify-content: space-evenly; 
   /*space-evenly pour les marges entre chaque bloc */
@@ -38,12 +61,7 @@ footer{
   margin: 10px 0px;
 }
 
-.competences img{
-  display:block;
-  width:auto;
-  margin-left:auto;
-  margin-right:auto;
-}
+
 
 .button {
   background-color: #003d66;
@@ -53,4 +71,8 @@ footer{
 
 p {
   text-align: center;
+}
+
+#container img {
+  padding: 10px ;
 }
