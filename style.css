@@ -4,7 +4,6 @@
 
 *{margin: 0;
 padding: 0;
-box-sizing: border-box;
  font-family: 'Montserrat', sans-serif;
  scroll-behavior: smooth;
 
@@ -15,12 +14,25 @@ box-sizing: border-box;
 }
 
  .entete  {
-  background-color: #81bfe9;
+  background-color:grey;
+  display: inline;
 }
 
-
-term
 
 footer{
   background-color: blue;
 }
+
+.containeur {
+  background-color: aqua;
+  display: flex;
+  justify-content: space-evenly; 
+  /*space-evenly pour les marges entre chaque bloc */
+}
+.competences {
+  background-color: blueviolet;
+  width: 300px;
+  height: 300px;
+  margin: 10px 0px;
+}
+
