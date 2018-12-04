@@ -13,3 +13,7 @@ box-sizing: border-box;
 .navbar {
   background-color: blue;
 }
+
+#wedding {
+  line-height: 300px;
+}
