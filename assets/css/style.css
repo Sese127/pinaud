@@ -14,6 +14,21 @@ box-sizing: border-box;
   background-color: blue;
 }
 
-#wedding {
-  line-height: 300px;
+.langue {
+text-align: center;
+width: 200px;
+position: absolute;
+right: 0;
+}
+
+
+section.competences p {
+  text-align: center;
+  width: 200px;
+  height: 226px;
+}
+
+.competences button-c{
+  width: 200px;
+  height: 226;
 }
