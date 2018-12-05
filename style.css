@@ -5,45 +5,52 @@
 
 *{margin: 0;
 padding: 0;
- font-family: 'Montserrat', sans-serif;
 }
 
 
 .logo{
   display: flex;
 }
+
 .logo, img {
   float: left;
+  margin-left:10px;
 }
 
-.logo, p{
-  text-align: right
+
+
+#langues{
+  float:right; 
+  margin-right: 20px;
 }
 
 i {
   padding: 30px;
   text-align: center;
   font-size: 23px;
-  margin-top: 2px;
- 
 }
 
- .nav-item {
-  color: black; 
-}
 
 
   .entete  {
-    background-color:#003d66;
-    color: white;
-    text-align: center;
+    background-color:white;
+    color: black;
     height: 100px;
     padding: 5px 0px; 
   }
   
-
+.navbar {
+  background-color: #003d66; 
+  display: block;
+  
+}
   .nav a {
-    color: black
+    color: white;
+    font-size:23px;
+  }
+
+ .dropdown-menu{
+    background-color: #003d66;
   }
 
 footer{
@@ -77,3 +84,49 @@ p {
 #container img {
   padding: 10px ;
 }
+
+#contact {
+  display: flex;
+  background-color: transparent
+
+
+}
+
+.form {
+  width: 600px;
+  height: 300px;
+  margin: 10px 0px;
+  padding: 20px;
+}
+
+
+footer{
+  background-color: #003d66; 
+  height: 100px
+}
+
+
+.form_contact
+{
+	height: 33px;
+}
+
+
+/* boutton formulaire de contact */
+#button_send
+{
+	background-color: #468cad;
+	border-style: none;
+	padding: 10px;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 1em;
+	border-radius: 8px;
+   width: 50%;
+}
+
+iframe {
+  background-color: transparent
+}
+
+
